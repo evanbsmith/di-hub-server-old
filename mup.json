@@ -1,0 +1,28 @@
+{
+  "servers": [
+    {
+      "host": "104.236.216.194",
+      "username": "root",
+	  "pem": "~/.ssh/key2"
+    }
+  ],
+
+  "setupMongo": false,
+
+  "setupNode": true,
+
+  "nodeVersion": "0.10.36",
+
+  "enableUploadProgressBar": true,
+
+  "appName": "di-hub-server",
+
+  "app": ".",
+
+  "env": {
+    "ROOT_URL": "http://104.236.216.194",
+	"MONGO_URL": "mongodb://di-hub-server:DI1500KStreet@dogen.mongohq.com:10072/di-hub-server-db-sandbox"
+  },
+
+  "deployCheckWaitTime": 30
+}
